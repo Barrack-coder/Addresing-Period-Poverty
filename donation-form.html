@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/NicePng_helping-hand-png_813281.png" type="image/x-icon">
+    <link rel="icon" href="./form-images/NicePng_helping-hand-png_813281.png" type="image/x-icon">
     <link rel="stylesheet" href="donation-form.css">
     <title>Document</title>
 </head>
@@ -25,11 +25,109 @@
                     <li><a href="mission.html">Our Mission</a></li>
                 </ul>
                 <div> <button class=" btn" type="button"><a href="donation-form.html">Donate</a></button></div>
-                <form action=""></form>
 
             </div>
 
         </nav>
+        <div>
+            <h2>Please give what you can today.</h2>
+
+            <div>
+                <label for="amount">Amount</label>
+                <select id="amount" name="amount" form="infoForm">
+                    <option value="50">$50</option>
+                    <option value="10">$10</option>
+                    <option value="15">$15</option>
+                    <option value="20">$20</option>
+                    <option value="25">$25</option>
+                    <option value="100">$100</option>
+                    <option value="200">$200</option>
+                    <option value="500">$500</option>
+                    <option value="1000">$1000</option>
+                    <option value="-1">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="frequency">Frequency</label>
+                <select id="frequency" name="Frequency" class="form-control">
+                    <option value="0">One Time</option>
+                    <option value="1">Monthly</option>
+                    <option value="12">Yearly</option>
+                </select>
+            </div>
+
+            <h2>Billing Address</h2>
+            <form action="" id="infoForm">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first name" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last name" placeholder="Last Name">
+                </div>
+                <div>
+                    <label for="company-name">Company Name</label>
+                    <input type="text" id="company-name" name="Company Name" placeholder="Company Name">
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="Address" placeholder="Address">
+                </div>
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="City" placeholder="City">
+                </div>
+                <div>
+                    <label for="state">First Name</label>
+                    <input type="text" id="state" name="State" placeholder="State">
+                </div>
+                <div>
+                    <label for="zip">Zip/Postal Code</label>
+                    <input type="text" id="zip" name="Zip/Postal Code" placeholder="Zip/Postal Code">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="Email" placeholder="Email">
+                </div>
+            </form>
+            <h2>Credit Card Information</h2>
+
+            <div>
+                <label for="cardExpires">Expiration (MM/YYYY)</label>
+                <select id="cardExpires" name="Expiration (MM/YYYY)" form="infoForm">
+                    <option value="1"> Jan </option>
+                    <option value="2"> Feb </option>
+                    <option value="3"> Mar </option>
+                    <option value="4"> Apr </option>
+                    <option value="5" selected=""> May </option>
+                    <option value="6"> Jun </option>
+                    <option value="7"> Jul </option>
+                    <option value="8"> Aug </option>
+                    <option value="9"> Sep </option>
+                    <option value="10"> Oct </option>
+                    <option value="11"> Nov </option>
+                    <option value="12"> Dec </option>
+                </select>
+                <div class="col-md-2 ">
+                    <select id="CardExpirationYear" name="CardExpirationYear" class="infoForm">
+                        <option> 2021 </option>
+                        <option> 2022 </option>
+                        <option> 2023 </option>
+                        <option> 2024 </option>
+                        <option> 2025 </option>
+                        <option> 2026 </option>
+                        <option> 2027 </option>
+                        <option> 2028 </option>
+                        <option> 2029 </option>
+                        <option> 2030 </option>
+                    </select>
+                </div>
+
+            </div>
+
+
+        </div>
     </div>
 </body>
 
