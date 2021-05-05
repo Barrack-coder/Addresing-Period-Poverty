@@ -1,20 +1,23 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #24252A; */
 }
 li, a,button {
     font-family: "montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
 header{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;padding: 30px 10%;
+}
+.log{
+    size: 30px;
 }
 .nav_links{
     list-style: none;
@@ -39,4 +42,12 @@ button{
 }
 button{
     background-color: rgba(0,136,169,0.8);
+}
+.img{
+    background-image: url("./mission-images/images\ \(2\).jpeg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
