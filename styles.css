@@ -1,0 +1,15 @@
+body {
+    margin: 1px;
+}
+
+.nav-wrapper {
+    background-image: url(./images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+}
