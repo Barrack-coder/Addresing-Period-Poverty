@@ -139,16 +139,30 @@ ul {
     text-align: center;
 }
 
-.image-container-2 {}
+.image-container-2 {
+    height: 50vh;
+    border: 2px solid;
+    margin: 10px;
+    width: 100%;
+}
 
 .image-5 {
+    width: 33.33%;
+    height: 50vh;
     background-image: url("./images/kid.jpeg");
+    background-repeat: no-repeat;
 }
 
 .image-6 {
+    width: 33.33%;
+    height: 50vh;
+    background-repeat: no-repeat;
     background-image: url("./images/sss.jpeg");
 }
 
 .image-7 {
+    width: 33.33%;
+    height: 50vh;
+    background-repeat: no-repeat;
     background-image: url("./images/oo.jpeg");
 }
