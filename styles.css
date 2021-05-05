@@ -138,3 +138,9 @@ ul {
     border: 1px solid;
     text-align: center;
 }
+
+.image-container-2 {}
+
+.image-5 {
+    background-image: url("./images/kid.jpeg");
+}
