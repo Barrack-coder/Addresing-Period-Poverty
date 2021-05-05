@@ -39,5 +39,15 @@
  
  .list li a {
      color: rgb(0, 0, 0);
-     font-size: 30px;
+     font-size: 35px;
+ }
+ 
+ .figure {
+     align-items: center;
+ }
+ 
+ .us {
+     justify-content: center;
+     align-items: center;
+     text-align: centerS;
  }
