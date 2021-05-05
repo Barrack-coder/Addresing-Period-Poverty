@@ -14,7 +14,8 @@ li, a,button {
 header{
     display: flex;
     justify-content: flex-end;
-    align-items: center;padding: 30px 10%;
+    align-items: center;
+    padding: 30px 10%;
 }
 .log{
     size: 30px;
@@ -25,9 +26,6 @@ header{
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
-}
-.nav_links li a{
-    transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover {
     color: cornflowerblue;
@@ -50,4 +48,13 @@ button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+}
+.img h2{
+position: relative;
+top: 400px;
+}
+.text{
+    text-align: center;
+    background-color: white;
 }
