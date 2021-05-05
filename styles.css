@@ -71,7 +71,23 @@
                 
                 .hero-container {
                     height: 60vh;
-                    border: 2px solid;
+                    margin-top: 8%;
                 }
                 
-                .hero-container
+                .middle-container {
+                    margin: 50px 50px;
+                    padding: 5%;
+                    text-align: center;
+                }
+                
+                .image-container {
+                    text-align: center;
+                    margin: 0px 10px;
+                }
+                
+                ul {
+                    background-color: tomato;
+                    border: 1px solid;
+                    justify-content: space-evenly;
+                    text-align: center;
+                }
