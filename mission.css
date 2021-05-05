@@ -1,23 +1,18 @@
-/* .img{
-     */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
 }
-ul{
-    width: auto;
-    float: right;
-    margin-top: 8px;
-}
-li{
-    display: inline-block;
-    padding: 15px 30px;
-}
-a{
-    text-align: center;
-    color: blue;
+li, a,button {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2vw;
 }
-a:hover{
-    color: #F0c330;
-    transition: 0.5s;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 30px 10%;
 }
