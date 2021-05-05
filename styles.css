@@ -24,12 +24,15 @@ a {
 .nav-bar {
     height: 15vh;
     width: 100%;
-    display: flex;
 }
 
 figure {
     align-items: flex-start;
     width: 9%;
+}
+
+.nav-1 {
+    justify-content: space-around;
 }
 
 .list {
@@ -48,7 +51,20 @@ figure {
     font-size: 30px;
 }
 
+button {
+    position: relative;
+    font-size: 30px;
+    border-radius: 14px;
+}
+
 .nav-2 {
     position: relative;
     top: 40%;
+    font-size: 40px;
+}
+
+.m-2 button {
+    position: absolute;
+    padding: 20px 50px;
+    background-color: tomato;
 }
