@@ -53,6 +53,11 @@ button{
 .img h2{
 position: relative;
 top: 400px;
+left: 200px;
+border: 2px solid palevioletred;
+box-sizing: border-box;
+width: 150px;
+
 }
 .text{
     text-align: center;
