@@ -71,9 +71,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .address{
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 100%;
     background-color: grey;
     text-align: center;
-    display: flex;
+    font-style: italic;
 }
