@@ -54,12 +54,26 @@ button{
 position: relative;
 top: 400px;
 left: 200px;
-border: 2px solid palevioletred;
+border: 2px solid yellow;
 box-sizing: border-box;
 width: 150px;
-
+border-radius: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .text{
     text-align: center;
     background-color: white;
+}
+.paragraphs{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.address{
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+    display: flex;
 }
