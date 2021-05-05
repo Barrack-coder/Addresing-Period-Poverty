@@ -1,15 +1,54 @@
-body {
-    margin: 1px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-flex {
+    display: flex;
 }
 
 .nav-wrapper {
+    height: 100vh;
+    width: 100%;
     background-image: url(./images/download.jpeg);
+    background-color: rgba(43, 64, 226, 0.659);
+    background-blend-mode: screen;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .nav-bar {
+    height: 15vh;
+    width: 100%;
     display: flex;
-    align-items: top;
-    justify-content: flex-start;
+}
+
+figure {
+    align-items: flex-start;
+    width: 9%;
+}
+
+.list {
+    padding: 20px 0px;
+    list-style: none;
+}
+
+.list li {
+    color: rgb(5, 5, 5);
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.list li a {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.nav-2 {
+    position: relative;
+    top: 40%;
 }
