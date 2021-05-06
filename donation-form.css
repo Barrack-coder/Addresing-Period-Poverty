@@ -72,3 +72,67 @@ a {
     font-weight: 700;
 
 }
+.form{
+    width: 40%;
+    margin: 0 auto;
+   text-align: right;
+      
+}
+.form-group input{
+    width:40rem;
+    padding:  15px 0;
+    margin: 10px 0;
+    border: 3px solid rgba(128, 128, 128, 0.747);
+    border-radius: 10px;
+    
+}
+.form-control {
+    width:40rem;
+    padding:  15px 0;
+    margin: px 0;
+    border: 3px solid rgba(128, 128, 128, 0.747);
+    border-radius: 10px;
+}
+label{
+    float: left;
+    padding-top: 20px;
+   
+}
+h2{
+    text-align: left;
+    padding-top:10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
+.form-ex{
+    
+}
+#submit{
+  
+    background-color:#D6A74D;
+    padding: 15px 0;
+    width: 10%;
+    
+    margin: 0 45%;
+    border-radius: 10px;
+}
+.footer{
+    background-color:#C4C4C4;
+    height: 20vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.footer p{
+text-align: center;
+}
+.icons{
+    
+    justify-content: center;
+    list-style: none;
+}
+.icons li{
+    padding-top: 20px;
+    padding-left: 20px;
+}

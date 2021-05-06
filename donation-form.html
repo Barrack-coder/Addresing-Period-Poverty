@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./form-images/NicePng_helping-hand-png_813281.png" type="image/x-icon">
     <link rel="stylesheet" href="donation-form.css">
+    <script src="https://kit.fontawesome.com/692524ab42.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./form-images/NicePng_helping-hand-png_813281.png" type="image/x-icon">
     <title>Document</title>
 </head>
 
@@ -24,17 +25,19 @@
                     <li><a href="#">Contacts</a></li>
                     <li><a href="mission.html">Our Mission</a></li>
                 </ul>
-                <div> <button class=" btn" type="button"><a href="donation-form.html">Donate</a></button></div>
+                <div> <button class=" btn" type="button"><a href="donation-form.html">Donate</a></button>
+                </div>
 
             </div>
 
         </nav>
-        <div>
-            <h2>Please give what you can today.</h2>
+        <div class=" form">
+            <p>Please</p>
+            <h2>Donation Information.</h2>
 
             <div>
-                <label for="amount">Amount</label>
-                <select id="amount" name="amount" form="infoForm">
+                <label for="amount">Amount</label><br>
+                <select id="amount" name="amount" class="form-control" form="infoForm">
                     <option value="50">$50</option>
                     <option value="10">$10</option>
                     <option value="15">$15</option>
@@ -58,44 +61,46 @@
 
             <h2>Billing Address</h2>
             <form action="" id="infoForm">
-                <div>
+                <div class="form-group">
                     <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first name" placeholder="First Name">
+                    <input type="text" id="first-name" required name="first name" placeholder="First Name">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last name" placeholder="Last Name">
+                    <input type="text" id="last-name" required name="last name" placeholder="Last Name">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="company-name">Company Name</label>
-                    <input type="text" id="company-name" name="Company Name" placeholder="Company Name">
+                    <input type="text" id="company-name" required name="Company Name" placeholder="Company Name">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="address">Address</label>
-                    <input type="text" id="address" name="Address" placeholder="Address">
+                    <input type="text" id="address" required name="Address" placeholder="Address">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="city">City</label>
-                    <input type="text" id="city" name="City" placeholder="City">
+                    <input type="text" id="city" required name="City" placeholder="City">
                 </div>
-                <div>
-                    <label for="state">First Name</label>
-                    <input type="text" id="state" name="State" placeholder="State">
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" required name="State" placeholder="State">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="zip">Zip/Postal Code</label>
-                    <input type="text" id="zip" name="Zip/Postal Code" placeholder="Zip/Postal Code">
+                    <input type="text" id="zip" required name="Zip/Postal Code" placeholder="Zip/Postal Code">
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="Email" placeholder="Email">
+                    <input type="text" id="email" required name="Email" placeholder="Email">
                 </div>
             </form>
-            <h2>Credit Card Information</h2>
+            <h2>Credit Card Information <i class="fa fa-cc-visa" aria-hidden="true"></i> <i class="fa fa-cc-mastercard"
+                    aria-hidden="true"></i></h2>
 
-            <div>
+
+            <div class="form-ex">
                 <label for="cardExpires">Expiration (MM/YYYY)</label>
-                <select id="cardExpires" name="Expiration (MM/YYYY)" form="infoForm">
+                <select id="cardExpires" name="Expiration (MM/YYYY)" class="form-control " form="infoForm">
                     <option value="1"> Jan </option>
                     <option value="2"> Feb </option>
                     <option value="3"> Mar </option>
@@ -109,25 +114,41 @@
                     <option value="11"> Nov </option>
                     <option value="12"> Dec </option>
                 </select>
-                <div class="col-md-2 ">
-                    <select id="CardExpirationYear" name="CardExpirationYear" class="infoForm">
-                        <option> 2021 </option>
-                        <option> 2022 </option>
-                        <option> 2023 </option>
-                        <option> 2024 </option>
-                        <option> 2025 </option>
-                        <option> 2026 </option>
-                        <option> 2027 </option>
-                        <option> 2028 </option>
-                        <option> 2029 </option>
-                        <option> 2030 </option>
-                    </select>
-                </div>
 
+                <select id="CardExpirationYear" class="form-control" form="infoForm" name="CardExpirationYear">
+                    <option> 2021 </option>
+                    <option selected=""> 2022 </option>
+                    <option> 2023 </option>
+                    <option> 2024 </option>
+                    <option> 2025 </option>
+                    <option> 2026 </option>
+                    <option> 2027 </option>
+                    <option> 2028 </option>
+                    <option> 2029 </option>
+                    <option> 2030 </option>
+                </select>
             </div>
 
 
         </div>
+        <div>
+            <button type="submit" id="submit" form="infoForm">Make Donation Now</button>
+        </div>
+        <footer>
+            <div class="flex-container footer">
+                <p>
+                    Tel: +2546864489 or 0114898894893<br>
+                    address : 0001-009<br>
+                    street : moi avenue-0113
+                </p>
+                <ul class="flex-container icons">
+                    <li><a href="#"><img src="./form-images/insta.png"></a></li>
+                    <li><a href="#"><img src="./form-images/fb.png"></a></li>
+                    <li><a href="#"><img src="./form-images/twitter.png"></a></li>
+                    <li><a href="#"><img src="./form-images/telegram.png"></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 
