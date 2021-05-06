@@ -3,8 +3,9 @@
     padding: 0;
     
 }
-body{
-    overflow: hidden;
+body::-webkit-scrollbar{
+    
+   display: none;      
     max-height: 100vh;
 }
 a {
@@ -19,7 +20,7 @@ a {
    
     height: 100vh;
     width: 100%;
-    background-image: url(./images/eye-for-ebony-zQQ6Y5_RtHE-unsplash.jpg);
+    background-image: url("./images/eye-for-ebony-zQQ6Y5_RtHE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -58,6 +59,7 @@ a {
     color: black;
     font-size: 24px;
     font-weight: 900;
+  
     text-transform: uppercase;
 }
 .btn {
@@ -76,12 +78,25 @@ a {
 .nav-2 {
     position: relative;
     top: 40%;
+    left: 10px;
     font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
 }
 
 .button {
     font-size: 30px;
     background-color: orangered;
+}
+.m-1 button {
+    border-color: transparent;
+    border-radius: 24px;
+    font-size: 24px;
+    text-decoration: aliceblue;
+}
+.rdmore{
+    width: 10rem;
+    text-align: center;
 }
 
 .hero-container {
@@ -163,6 +178,7 @@ a {
     width: 25%;
     background-size: cover;
     background-image: url("./images/toto.jpeg");
+    background-position: center center;
 }
 
 .image-2 {
@@ -224,19 +240,11 @@ a {
     background-image: url("./images/oo.jpeg");
 }
 
-.m-1 {
-    align-items: center;
+.btm{
     justify-content: center;
-    text-decoration: aliceblue;
-    margin: 50px;
 }
 
-.m-1 button {
-    border-color: transparent;
-    border-radius: 24px;
-    font-size: 24px;
-    text-decoration: aliceblue;
-}
+
 .contacts-container{
     margin-top: 50px;
     background-color: gray;
