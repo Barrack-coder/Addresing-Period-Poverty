@@ -12,7 +12,7 @@
  }
  
  .nav-logo {
-     font-size: 40px;
+     font-size: 2px;
  }
  
  .nav-bar {
@@ -71,4 +71,15 @@
      padding-top: 90px;
      text-align: center;
      font-size: 40px;
+ }
+ 
+ .centre {
+     font-size: 50%;
+     padding-top: 50px;
+     font-size: 35px;
+ }
+ 
+ .button {
+     font-size: 35px;
+     padding-top: 30px;
  }
