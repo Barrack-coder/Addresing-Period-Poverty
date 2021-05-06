@@ -1,47 +1,70 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0;
+* {
     padding: 0;
-    background-color: #24252A; */
+    margin: 0;
 }
-li, a,button {
-    font-family: "montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #edf0f1;
+
+a {
     text-decoration: none;
 }
-header{
+
+.flex-container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
 }
-.log{
-    size: 30px;
+
+.nav {
+    width: 95%;
+    margin: 0 auto;
 }
-.nav_links{
+
+.logo img {
+    position: relative;
+    width: 90px;
+    z-index: 1;
+    left: 18px;
+    top: 12px;
+}
+
+.unorder {
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.navList {
     list-style: none;
+    align-items: center;
 }
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
+
+.navList li {
+    padding-right: 40px;
 }
-.nav_links li a:hover {
-    color: cornflowerblue;
+
+.navList li a {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
-button{
-    padding: 9px 25px;
-    background-color: yellow;
-    border: none;
-    border-radius: 50px;
-    cursor pointer;
-    transition: all 0.3s ease 0s;
+
+.btn {
+    margin: 10px;
+    background-color: #D6A74D;
+    border-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 24px;
 }
-button{
-    background-color: rgba(0,136,169,0.8);
+
+.btn a {
+    color: black;
+    font-weight: 700;
 }
-.img{
+
+.img {
     background-image: url("./mission-images/images\ \(2\).jpeg");
     height: 600px;
     width: 100%;
@@ -50,30 +73,42 @@ button{
     background-size: cover;
     color: white;
 }
-.img h2{
-position: relative;
-top: 400px;
-left: 200px;
-border: 2px solid yellow;
-box-sizing: border-box;
-width: 150px;
-border-radius: 30px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.img h2 {
+    position: relative;
+    top: 400px;
+    left: 200px;
+    border: 2px solid yellow;
+    box-sizing: border-box;
+    width: 170px;
+    border-radius: 30px;
+    font-family: sans-serif;
 }
-.text{
+
+.text {
     text-align: center;
     background-color: white;
 }
-.paragraphs{
+
+.paragraphs {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    font-family: sans-serif;
 }
-.address{
-    height: 150px;
+
+.address {
+    height: 100px;
     width: 100%;
     background-color: grey;
     text-align: center;
     font-style: italic;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons li {
+    padding: 0 10px;
 }
