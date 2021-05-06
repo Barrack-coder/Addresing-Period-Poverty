@@ -298,3 +298,21 @@ text-align: center;
     padding-top: 20px;
     padding-left: 20px;
 }
+@media only screen and (max-width: 1620px){
+    .list-1{
+        font-size: 24px;
+
+    }
+    .fore{
+        font-size: 24px;
+       
+    }
+
+    .word {
+        font-size: 30px;
+}
+    .term {
+        font-size: 24px;
+       
+    }
+}
