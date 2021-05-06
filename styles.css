@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
-
+body{
+    overflow: hidden;
+    max-height: 100vh;
+}
 a {
     text-decoration: none;
 }
@@ -12,97 +16,146 @@ a {
 }
 
 .nav-wrapper {
+   
     height: 100vh;
     width: 100%;
-    background-image: url(./images/download.jpeg);
-    background-color: rgba(43, 64, 226, 0.659);
-    background-blend-mode: screen;
+    background-image: url(./images/eye-for-ebony-zQQ6Y5_RtHE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.nav-bar {
-    height: 15vh;
-    width: 100%;
+.flex-container {
+    display: flex;
 }
-
-figure {
-    align-items: flex-start;
-    width: 9%;
+.nav {
+    width: 95%;
+    margin: 0 auto;
+}
+.logo img {
+    position: relative;
+    width: 90px;
     z-index: 1;
+    left: 18px;
+    top: 12px;
 }
-
-.nav-1 {
-    justify-content: space-around;
+.unorder {
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 0 20px;
 }
-
-.list {
-    padding: 0px 20px;
+.navList {
     list-style: none;
+    align-items: center;
 }
-
-.list li {
-    color: rgb(5, 5, 5);
-    padding: 0px 20px;
-    font-size: 30px;
+.navList li {
+    padding-right: 40px;
 }
-
-.list li a {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+.navList li a {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
-
-button {
+.btn {
     margin: 10px;
-    background-color: orangered;
+    background-color: #D6A74D;
     border-color: transparent;
     padding: 10px 30px;
+    border-radius: 30px;
     font-size: 24px;
+}
+.btn a{
+    color: black;
+    font-weight: 700;
 }
 
 .nav-2 {
     position: relative;
     top: 40%;
-    font-size: 40px;
+    font-size: 60px;
 }
 
-.m-2 button {
-    position: absolute;
-    padding: 20px 50px;
-    background-color: tomato;
+.button {
+    font-size: 30px;
+    background-color: orangered;
 }
 
 .hero-container {
+    background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
-    margin-top: 8%;
+    margin-top: 50px;
 }
-
+.hero{
+    width: 50%;
+    background-size: cover;
+    background-image: url("./images/concern-car-girl-gathers-water-1180x787-4.jpg");
+    background-repeat: no-repeat;
+}
+.hero-bar{
+    height: 30vh;
+    width: 25%;
+}
+.hero-1{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/Poverty-Related-Diseases.jpg");
+}
+.hero-2{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/rr.jpg");
+}
+.hero-bar-1{
+    height: 30vh;
+    width: 25%;
+}
+.hero-3{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/images.jpeg");
+}
+.hero-4{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/boy.jpeg");
+}
 .middle-container {
-    margin: 50px 50px;
-    padding: 5%;
+    height: 30vh;
+    padding: 80px 30px;
     text-align: center;
+    font-size: 24px;
 }
 
 .image-container {
     text-align: center;
-    margin: 0px 10px;
-    width: 100%;
+    margin: 0px;
+    width: 98%;
     height: 60vh;
 }
 
-ul {
+.list-1{
     background-color: rgba(187, 28, 0, 0.878);
     justify-content: space-evenly;
     list-style: none;
-    padding: 15px;
+    padding: 20px 0px;
+    position: relative;
+    top: 10px;
     height: 10vh;
     font-size: 30px;
 }
 
 .image-container-1 {
     height: 50vh;
-    width: 100%;
+    
 }
 
 .image-1 {
@@ -135,21 +188,23 @@ ul {
 
 .word {
     height: 30%;
-    border: 1px solid;
+    margin: 50px;
+    background-color: rgba(187, 187, 18, 0.878);
     text-align: center;
+    font-size: 24px;
 }
 
 .image-container-2 {
     height: 50vh;
-    border: 2px solid;
     margin: 10px;
-    width: 100%;
+    width: 98%;
 }
 
 .image-5 {
     width: 33.33%;
     height: 50vh;
     background-image: url("./images/kid.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -157,6 +212,7 @@ ul {
     width: 33.33%;
     height: 50vh;
     background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("./images/sss.jpeg");
 }
 
@@ -164,5 +220,31 @@ ul {
     width: 33.33%;
     height: 50vh;
     background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("./images/oo.jpeg");
+}
+
+.m-1 {
+    align-items: center;
+    justify-content: center;
+    text-decoration: aliceblue;
+    margin: 50px;
+}
+
+.m-1 button {
+    border-color: transparent;
+    border-radius: 24px;
+    font-size: 24px;
+    text-decoration: aliceblue;
+}
+.contacts-container{
+    margin-top: 50px;
+    background-color: gray;
+}
+.contacts {
+    text-align: center;
+}
+.icons-container{
+    height: 10%;
+    text-align: center;
 }
