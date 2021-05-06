@@ -74,6 +74,8 @@ a {
     text-align: center;
     font-size: 20px;
     margin-bottom: 60px;
+    font-style: unset;
+    color: rgb(5, 5, 5);
 }
 
 .pic {
@@ -81,11 +83,9 @@ a {
     margin: 0 auto;
     height: 70vh;
     background-image: url("./image.about/img-20190606-5cf8bb227e9f9.jpg");
-    color: aliceblue;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 100%;
-    background-color: rgb(7, 253, 233);
 }
 
 
@@ -103,8 +103,9 @@ a {
     position: relative;
     top: 100px;
     left: 100px;
-    font-size: 25px;
-    color: rgb(156, 137, 137);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 1px black;
 }
 
 .paragraph p {
@@ -153,6 +154,7 @@ a {
 
 .footer {
     background-color: #C4C4C4;
+    height: 20vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -163,11 +165,11 @@ a {
 }
 
 .icons {
-    display: flex;
     justify-content: center;
     list-style: none;
 }
 
 .icons li {
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
