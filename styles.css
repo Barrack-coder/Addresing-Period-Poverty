@@ -110,48 +110,51 @@ a {
     margin-top: 50px;
 }
 .hero{
-    width: 50%;
+    width: 49.5%;
     background-size: cover;
-    background-image: url("./images/concern-car-girl-gathers-water-1180x787-4.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/concern-car-girl-gathers-water-1180x787-4.jpg");
     background-repeat: no-repeat;
 }
 .hero-bar{
     height: 30vh;
     width: 25%;
 }
+
 .hero-1{
     height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("./images/Poverty-Related-Diseases.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/Poverty-Related-Diseases.jpg");
 }
 .hero-2{
     height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("./images/rr.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/rr.jpg");
 }
 .hero-bar-1{
     height: 30vh;
     width: 25%;
+    padding: 0px 1px;
 }
 .hero-3{
     height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("./images/images.jpeg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/images.jpeg");
 }
 .hero-4{
     height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("./images/boy.jpeg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/boy.jpeg");
 }
 .middle-container {
     height: 30vh;
     padding: 80px 30px;
     text-align: center;
     font-size: 50px;
+   
 }
 
 .image-container {
@@ -170,18 +173,31 @@ a {
     top: 10px;
     height: 10vh;
     font-size: 30px;
+    color: honeydew;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
 }
 
 .image-container-1 {
     height: 50vh;
     
 }
-
+.fore{
+    opacity: 0;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.fore:hover{
+    opacity: 1;
+    color: ivory;
+}
 .image-1 {
     height: 46vh;
     width: 25%;
     background-size: cover;
-    background-image: url("./images/toto.jpeg");
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/toto.jpeg");
     background-position: center center;
 }
 
@@ -189,27 +205,29 @@ a {
     height: 46vh;
     width: 25%;
     background-size: cover;
-    background-image: url("./images/girls.jpg");
+    background-image:   linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/girls.jpg");
 }
 
 .image-3 {
     height: 46vh;
     width: 25%;
     background-size: cover;
-    background-image: url("./images/kenya3-0.png");
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/kenya3-0.png");
 }
 
 .image-4 {
     height: 46vh;
     width: 25%;
     background-size: cover;
-    background-image: url("./images/trpd.jpg");
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/trpd.jpg");
 }
 
 .word {
+    color: honeydew;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
     height: 30%;
     margin: 50px;
-    background-color: rgba(187, 187, 18, 0.878);
+    background-color: #BD6E24;
     text-align: center;
     font-size: 50px;
 }
@@ -219,11 +237,19 @@ a {
     margin: 10px auto;
     width: 98%;
 }
-
+.term {
+    position: relative;
+    top: 200px;
+    align-content: center;
+    text-align: center;
+    color: rgba(255, 251, 251, 0.967);
+    font-size: 30px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
 .image-5 {
     width: 33.33%;
     height: 50vh;
-    background-image: url("./images/kid.jpeg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/kid.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -233,7 +259,7 @@ a {
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./images/sss.jpeg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/sss.jpeg");
 }
 
 .image-7 {
@@ -241,7 +267,7 @@ a {
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./images/depositphotos_152535348-stock-photo-outgoing-woman-hearing-song-in.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/depositphotos_152535348-stock-photo-outgoing-woman-hearing-song-in.jpg");
 }
 
 .btm{
