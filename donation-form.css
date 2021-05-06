@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.nav {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    position: relative;
+    width: 90px;
+    z-index: 1;
+    left: 18px;
+    top: 12px;
+
+}
+
+.unorder {
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 0 20px;
+
+}
+
+.navList {
+    list-style: none;
+    align-items: center;
+
+}
+
+.navList li {
+    padding-right: 40px;
+
+
+}
+
+.navList li a {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    margin: 10px;
+    background-color: #D6A74D;
+    
+    border-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+
+}
+.btn a{
+    color: black;
+    font-weight: 700;
+
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+   text-align: right;
+      
+}
+.form p{
+    text-align: left;
+    font-size: 24px;
+    color: rgb(65, 63, 63)
+}
+.form-group input{
+    width:40rem;
+    padding:  15px 0;
+    margin: 10px 0;
+    border: 3px solid rgba(128, 128, 128, 0.747);
+    border-radius: 10px;
+    
+}
+.form-control {
+    width:40rem;
+    padding:  15px 0;
+    margin: px 0;
+    border: 3px solid rgba(128, 128, 128, 0.747);
+    border-radius: 10px;
+}
+label{
+    float: left;
+    padding-top: 20px;
+   
+}
+h2{
+    text-align: left;
+    padding-top:10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+    
+
+#submit{
+  
+    background-color:#D6A74D;
+    padding: 15px 0;
+    width: 10%;
+    
+    margin: 20px 45%;
+    border-radius: 10px;
+}
+.footer{
+    background-color:#C4C4C4;
+    height: 20vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.footer p{
+text-align: center;
+}
+.icons{
+    
+    justify-content: center;
+    list-style: none;
+}
+.icons li{
+    padding-top: 20px;
+    padding-left: 20px;
+}
