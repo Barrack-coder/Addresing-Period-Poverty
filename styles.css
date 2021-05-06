@@ -3,9 +3,12 @@
     padding: 0;
     
 }
+body{
+    background-color: rgba(184, 184, 184, 0.22);
+}
 body::-webkit-scrollbar{
     
-   display: none;      
+    display: none;      
     max-height: 100vh;
 }
 a {
@@ -100,6 +103,7 @@ a {
 }
 
 .hero-container {
+    
     background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
@@ -147,18 +151,18 @@ a {
     height: 30vh;
     padding: 80px 30px;
     text-align: center;
-    font-size: 24px;
+    font-size: 50px;
 }
 
 .image-container {
     text-align: center;
-    margin: 0px;
+    margin: 0px auto;
     width: 98%;
     height: 60vh;
 }
 
 .list-1{
-    background-color: rgba(187, 28, 0, 0.878);
+    background-color: #BD6E24;
     justify-content: space-evenly;
     list-style: none;
     padding: 20px 0px;
@@ -207,12 +211,12 @@ a {
     margin: 50px;
     background-color: rgba(187, 187, 18, 0.878);
     text-align: center;
-    font-size: 24px;
+    font-size: 50px;
 }
 
 .image-container-2 {
     height: 50vh;
-    margin: 10px;
+    margin: 10px auto;
     width: 98%;
 }
 
@@ -237,13 +241,14 @@ a {
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./images/oo.jpeg");
+    background-image: url("./images/depositphotos_152535348-stock-photo-outgoing-woman-hearing-song-in.jpg");
 }
 
 .btm{
+    position: relative;
+    top: 20px;
     justify-content: center;
 }
-
 
 .contacts-container{
     margin-top: 50px;
@@ -251,6 +256,7 @@ a {
 }
 .contacts {
     text-align: center;
+    font-size: 40px;
 }
 .icons-container{
     height: 10%;
