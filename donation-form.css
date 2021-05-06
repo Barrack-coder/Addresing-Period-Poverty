@@ -78,6 +78,11 @@ a {
    text-align: right;
       
 }
+.form p{
+    text-align: left;
+    font-size: 24px;
+    color: rgb(65, 63, 63)
+}
 .form-group input{
     width:40rem;
     padding:  15px 0;
@@ -104,16 +109,16 @@ h2{
     padding-bottom: 5px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.308);
 }
-.form-ex{
+
     
-}
+
 #submit{
   
     background-color:#D6A74D;
     padding: 15px 0;
     width: 10%;
     
-    margin: 0 45%;
+    margin: 20px 45%;
     border-radius: 10px;
 }
 .footer{
