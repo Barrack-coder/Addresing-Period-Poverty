@@ -1,6 +1,8 @@
-# Dairy Records
+# Addressing Period Poverty
 
 > A donation website that helps in eradicating problems facing young girls in poor backgrounds.
+
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
@@ -71,7 +73,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Appreciation to Moringa school for giving me this opportunity to learn :)
+- Appreciation to Moringa school for giving us this opportunity to learn :)
 
 ## 📝 License
 
