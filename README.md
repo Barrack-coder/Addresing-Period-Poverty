@@ -6,7 +6,6 @@
 
 - HTML
 - CSS
-- Javascript
 
 ## Live Demo
 
@@ -55,7 +54,7 @@ $ git clone https://github.com/Barrack-coder/Addresing-Period-Poverty.git
 
 👤 **Author**
 
-- Eudes Charlse
+- Eudes Charles
 - GitHub: [@eude313](https://github.com/eude313)
 - twitter: [@_.scriptures_](https://twiter.com/_.scriptures_)
 - Email: eudes.charles@student.moringaschool.com
