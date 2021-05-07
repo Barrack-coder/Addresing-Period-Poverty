@@ -47,7 +47,7 @@ a {
     width: 100%;
     margin: 20px 0;
     height: 70px;
-    background-color: #C4C4C4;
+    
     border-radius: 5px;
     padding: 0 20px;
 }
@@ -56,13 +56,13 @@ a {
     align-items: center;
 }
 .navList li {
-    padding-right: 40px;
+    padding:0  40px;
 }
 .navList li a {
-    color: black;
+    color: white;
     font-size: 24px;
     font-weight: 900;
-  
+    text-shadow: 2px 2px 5px black;
     text-transform: uppercase;
 }
 .btn {
